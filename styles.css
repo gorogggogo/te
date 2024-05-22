@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 20px);
+    grid-template-rows: repeat(20, 20px);
+    gap: 1px;
+    background-color: #333;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    background-color: #444;
+}
+
+.tetromino {
+    background-color: #f00;
+}
+
+.taken {
+    background-color: #777;
+}
+
+#score {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+}
